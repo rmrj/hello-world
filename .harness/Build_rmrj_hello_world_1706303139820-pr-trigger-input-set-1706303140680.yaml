@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rmrj_hello_world_1706303139820-pr-trigger-input-set
+  identifier: Build_rmrj_hello_world_1706303139820prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_rmrj_hello_world_1706303139820
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
